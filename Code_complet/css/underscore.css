@@ -1,0 +1,200 @@
+body{
+	background-color: #ffffff;
+	font-family: Product Sans;
+}
+
+header{
+	background-color: #333333;
+	border-radius: 1em 1em;
+	padding: 1em 1em;
+	color: white;
+	font-size: 20px;
+}
+
+/*Affichier les menus de navigation sous forme de blocs*/
+nav.menu ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+/*Personnalisation des menus de navigations*/
+nav.menu ul li.btn a{
+	color: white;
+	background-color: #3569CD;
+	text-decoration: none;
+	padding: 15px;
+	border-radius: 2em 2em;
+	font-size: 20px;
+}
+
+/*Transition des menus de navigation lors du survol de la souris*/
+nav.menu ul li.btn:hover a{
+	color: #3569CD;
+	background-color: #ffffff;
+	transition: 0.4s all;
+}
+
+input.envoyer{
+	color: #3569CD;
+	background-color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 2em 2em;
+	font-size: 15px;
+	font-family: Product Sans;
+}
+
+input.envoyer:hover{
+	color: #ffffff;
+	background-color: #3569CD;
+	transition: 0.4s all;
+}
+
+/*Bordures arrondies*/
+img{
+	border-radius: 1em 1em;
+}
+
+img.mode{
+	padding: 5px;
+	border-radius: 2em 2em;
+}
+
+p.accueil{
+	font-size: 30px;
+}
+
+p.but{
+	font-size: 20px;
+}
+
+p.actual{
+	font-size: 20px;
+}
+
+a{
+	color: #000000;
+}
+
+div#forum a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #3569CD;
+	transition: 0.3s all;
+}
+
+p.reglements{
+	font-size: 30px;
+}
+
+p.regles{
+	font-size: 20px;
+}
+
+p.forum{
+	font-size: 30px;
+}
+
+p.form{
+	font-size: 20px;
+}
+
+div#home div{
+	display: inline-block;
+	width: 30%;
+	font-size: 20px;
+	margin: 5px;
+	color: #ffffff;
+	background-color: #3569CD;
+	padding: 1em 1em;
+	border-radius: 1em 1em;
+}
+
+div#home a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+div#home div:hover{
+	color: #ffffff;
+	background-color: #333333;
+	transition: 0.4s all;
+}
+
+div#contact div{
+	display: inline-block;
+	width: 30%;
+	font-size: 20px;
+	margin: 5px;
+	color: #ffffff;
+	background-color: #3569CD;
+	padding: 1em 1em;
+	border-radius: 1em 1em;
+}
+
+div#contact div:hover{
+	color: #ffffff;
+	background-color: #333333;
+	transition: 0.4s all;
+}
+
+div#forum div{
+	display: inline-block;
+	width: 30%;
+	font-size: 20px;
+	margin: 5px;
+	color: #ffffff;
+	background-color: #3569CD;
+	padding: 1em 1em;
+	border-radius: 1em 1em;
+}
+
+div#forum div:hover{
+	color: #ffffff;
+	background-color: #333333;
+	transition: 0.4s all;
+}
+
+div#connexion div{
+	display: inline-block;
+	width: 30%;
+	font-size: 20px;
+	margin: 5px;
+	color: #ffffff;
+	background-color: #3569CD;
+	padding: 1em 1em;
+	border-radius: 1em 1em;
+}
+
+div#connexion div:hover{
+	color: #ffffff;
+	background-color: #333333;
+	transition: 0.4s all;
+}
+
+p.submit{
+	font-size: 30px;
+}
+
+p.contact{
+	font-size: 30px;
+}
+
+p.contact1{
+	font-size: 20px;
+}
+
+p.connexion{
+	font-size: 30px;
+}
+
+footer{
+	background-color: #333333;
+	border-radius: 1em 1em;
+	padding: 1em 1em;
+	color: white;
+	font-size: 18px;
+}
